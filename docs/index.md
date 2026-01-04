@@ -3,7 +3,7 @@
 [Linkedin's Profile](https://www.linkedin.com/in/eddyk1)
 
 
-## [Introduction to Statistics]([https://sites.google.com/view/math-1280/](https://sites.google.com/view/math-1280/home?authuser=2))
+## [Introduction to Statistics](https://sites.google.com/view/math-1280/home)
 
 - Examine concepts of probability that are associated with statistics.
 - Understand the basic forms of presenting and summarizing data.
