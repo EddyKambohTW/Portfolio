@@ -8,7 +8,7 @@ title: Eddy Frank Fotsing Kamboh
   <p style="flex: 1; min-width: 240px; margin: 0;">I'm a data scientist and machine learning practitioner based in Canada. I build end-to-end ML systems, from feature engineering and model tuning to MLflow tracking, DVC pipelines and Docker deployment, with a focus on responsible AI: fairness, explainability and robustness. My recent work includes forecasting hourly electricity demand for Hydro-Québec's Hilo program and building LLM-powered data tools that run locally. I also have a foundation in applied statistics with R.</p>
 </div>
 
-[LinkedIn](https://www.linkedin.com/in/eddyk1) · [GitHub](https://github.com/EddyKambohTW) · [RPubs](https://rpubs.com/kambonalytic)
+**Contact me on [LinkedIn](https://www.linkedin.com/in/eddyk1)** · [GitHub](https://github.com/EddyKambohTW) · [RPubs](https://rpubs.com/kambonalytic)
 
 **Contents:** [Projects](#projects) · [Articles](#articles) · [Coursework](#coursework) · [Skills](#skills)
 
@@ -16,7 +16,7 @@ title: Eddy Frank Fotsing Kamboh
 
 ## Projects
 
-*The source code for these projects is in private GitHub repositories and is available on request.*
+*The source code for these projects is in private GitHub repositories and is available on request via [LinkedIn](https://www.linkedin.com/in/eddyk1).*
 
 ### Hilo (Hydro-Québec) energy consumption forecasting with responsible AI
 

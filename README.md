@@ -35,4 +35,4 @@ Then open http://localhost:4000.
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/eddyk1) · [GitHub](https://github.com/EddyKambohTW)
+Reach me on [LinkedIn](https://www.linkedin.com/in/eddyk1).
