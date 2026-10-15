@@ -5,7 +5,7 @@ date: 2022-06-19
 original: https://rpubs.com/kambonalytic/916316
 ---
 
-[← Back to portfolio](../)
+[← Back to portfolio](../index.md)
 
 *Published 2022-06-19 · Originally on [RPubs](https://rpubs.com/kambonalytic/916316) · Data: [Statistical Thinking datasets](http://pluto.huji.ac.il/~msby/StatThink/)*
 

@@ -41,15 +41,15 @@ A Streamlit app for asking questions about a CSV file in plain language. Answers
 
 ## Articles
 
-A five-part series of R tutorials based on *Introduction to Statistical Thinking (With R, Without Calculus)*, originally published on [RPubs](https://rpubs.com/kambonalytic).
+A five-part series of R tutorials based on [*Introduction to Statistical Thinking (With R, Without Calculus)*](http://pluto.huji.ac.il/~msby/StatThink/), originally published on [RPubs](https://rpubs.com/kambonalytic).
 
 | # | Article | Topics | Published |
 |---|---------|--------|-----------|
-| 1 | [Statistics & Basic R](articles/statistical-thinking-chapter-1.html) | What statistics is, R objects, `c()`, `table()`, bar plots | Jun 2022 |
-| 2 | [Data Frames & Frequency](articles/statistical-thinking-chapter-2.html) | Reading CSVs, `head()`/`tail()`, frequency, relative and cumulative frequency | Jun 2022 |
-| 3 | [Descriptive Statistics](articles/statistical-thinking-chapter-3.html) | Histograms, box plots, skewness, mean vs. median, variance and standard deviation | Jun 2022 |
-| 4 | [Probability & Random Variables](articles/statistical-thinking-chapter-4.html) | Populations, `summary()`, random sampling, sample space and distribution | Jun 2022 |
-| — | [Loading the Data Sets](articles/loading-data-sets.html) | Loading all 20 course datasets into R from the web | Jun 2022 |
+| 1 | [Statistics & Basic R](articles/statistical-thinking-chapter-1.md) | What statistics is, R objects, `c()`, `table()`, bar plots | Jun 2022 |
+| 2 | [Data Frames & Frequency](articles/statistical-thinking-chapter-2.md) | Reading CSVs, `head()`/`tail()`, frequency, relative and cumulative frequency | Jun 2022 |
+| 3 | [Descriptive Statistics](articles/statistical-thinking-chapter-3.md) | Histograms, box plots, skewness, mean vs. median, variance and standard deviation | Jun 2022 |
+| 4 | [Probability & Random Variables](articles/statistical-thinking-chapter-4.md) | Populations, `summary()`, random sampling, sample space and distribution | Jun 2022 |
+| — | [Loading the Data Sets](articles/loading-data-sets.md) | Loading all 20 course datasets into R from the web | Jun 2022 |
 
 ---
 
