@@ -6,7 +6,7 @@ My data science and machine learning portfolio, published with GitHub Pages.
 
 ## What's inside
 
-- **Projects:** an AutoML/MLOps energy-forecasting pipeline (H2O, MLflow, DVC, FastAPI, Docker) and a local-LLM CSV assistant (Streamlit + Ollama)
+- **Projects:** Hilo (Hydro-Québec) energy forecasting with responsible AI (scikit-learn, Optuna, SHAP, Fairlearn), an AutoML/MLOps energy-forecasting pipeline (H2O, MLflow, DVC, FastAPI, Docker) and a local-LLM CSV assistant (Streamlit + Ollama)
 - **Articles:** a five-part *Statistical Thinking* R tutorial series, migrated from [RPubs](https://rpubs.com/kambonalytic)
 - **Coursework:** MATH 1280 (Introduction to Statistics) and MATH 1281 (Statistical Inference)
 

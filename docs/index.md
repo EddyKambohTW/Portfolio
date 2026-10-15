@@ -13,7 +13,22 @@ title: Eddy Frank Fotsing Kamboh
 
 ## Projects
 
-### [AutoML energy consumption forecasting (MLOps pipeline)](https://github.com/EddyKambohTW/projet-automl-energy-peak--002-)
+*The source code for these projects is in private GitHub repositories and is available on request.*
+
+### Hilo (Hydro-Québec) energy consumption forecasting with responsible AI
+
+Forecasts the next hour's total electricity consumption (kWh) for households in Hydro-Québec's **Hilo** demand-response program. Hilo can remotely reduce heating during winter peaks, so accurate hourly forecasts help plan peak events. Team project with Rami Alrishan.
+
+- **Data:** 64,605 hourly records (3 substations, Jan 2022 – Jun 2024) pulled from the Hydro-Québec open-data API, covering consumption, connected clients, local weather and peak-event flags.
+- **Feature engineering:** sine/cosine encoding of hour, weekday and month; 1 h and 24 h lags; rolling means and volatility; heating degree-hours (HDD) and cold-night interactions. Sensor errors are removed, and target leakage was found and eliminated.
+- **Modelling:** a scikit-learn `HistGradientBoostingRegressor` predicts consumption *per client* (tree models can't extrapolate), with **monotonic constraints** on temperature. Hyperparameters were tuned with **Optuna** (Bayesian optimization), using a peak-weighted objective.
+- **Evaluation:** a leak-free temporal split with 48 h gaps, tested on winter 2022–23. MAE is 23.3 kWh and **R² is 0.951**. Peak-hour error (above 1,000 kWh) is about **3× lower** than predicting total consumption directly (170 vs. 500 kWh). Quarterly blocked cross-validation (10 folds) gives R² = 0.924 ± 0.046.
+- **Responsible AI:** fairness across substations and conditions with **Fairlearn**; explainability with **SHAP** and permutation importance; robustness tests; a STRIDE threat model and a privacy review.
+- **MLOps:** reproducible **DVC** pipeline (Google Drive remote); **MLflow** experiment tracking and model registry; **Docker Compose**; Makefile and Typer CLI; Cookiecutter Data Science layout.
+
+`Python` `scikit-learn` `Optuna` `SHAP` `Fairlearn` `pandas` `MLflow` `DVC` `Docker` `Jupyter`
+
+### AutoML energy consumption forecasting (MLOps pipeline)
 
 An end-to-end MLOps pipeline that predicts total hourly electricity consumption (kWh) from smart-thermostat data collected at three stations.
 
@@ -24,7 +39,7 @@ An end-to-end MLOps pipeline that predicts total hourly electricity consumption 
 
 `Python` `H2O AutoML` `MLflow` `DVC` `FastAPI` `Streamlit` `Docker` `GitHub Actions`
 
-### [AI data assistant: chat with your CSV (Streamlit + Ollama)](https://github.com/EddyKambohTW/03-tp-03-assistant-ia-csv-streamlit-ollama)
+### AI data assistant: chat with your CSV (Streamlit + Ollama)
 
 A Streamlit app for asking questions about a CSV file in plain language. Answers come from a **local LLM served by Ollama**, so the data never leaves your machine. Built for the course *420-C73-BB Processus et écosystèmes d'IA*.
 
@@ -79,8 +94,13 @@ A chapter-by-chapter study site (Chapters 1–8) with notes and unit presentatio
 | Area | Tools |
 |------|-------|
 | **Languages** | Python, R, SQL |
-| **Machine learning** | H2O AutoML, regression, feature engineering |
-| **MLOps** | MLflow, DVC, Docker / Docker Compose, GitHub Actions |
-| **Apps & APIs** | FastAPI, Streamlit |
+| **Data analysis** | pandas, NumPy, Jupyter, seaborn, ydata-profiling, exploratory data analysis |
+| **Machine learning** | scikit-learn (gradient boosting), H2O AutoML, regression, time-series forecasting, feature engineering (lags, rolling windows, cyclic encoding) |
+| **Model evaluation** | Temporal train/test splits, blocked cross-validation, target-leakage detection, MAE / RMSE / R² / MAPE, error analysis by range |
+| **Optimization** | Optuna (Bayesian hyperparameter tuning), monotonic constraints |
+| **Responsible AI** | Fairlearn (fairness metrics), SHAP and permutation importance (explainability), robustness testing, STRIDE threat modeling, privacy review |
+| **MLOps** | MLflow (tracking and model registry), DVC (data versioning and pipelines), Docker / Docker Compose, GitHub Actions, Makefile |
+| **Apps & APIs** | FastAPI, Streamlit, Typer CLI, REST API data ingestion |
 | **Generative AI** | Ollama, local LLMs (Qwen, Llama, Gemma) |
 | **Statistics** | Descriptive statistics, probability, statistical inference, simulation |
+| **Engineering practices** | Git, Cookiecutter Data Science project structure, Ruff (linting) |
