@@ -3,7 +3,10 @@ layout: default
 title: Eddy Frank Fotsing Kamboh
 ---
 
-**Data science & machine learning portfolio.** I build end-to-end ML pipelines and AI-powered data tools in Python, and practise applied statistics in R.
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem; margin-bottom: 1rem;">
+  <img src="assets/profile.jpg" alt="Eddy Frank Fotsing Kamboh" width="100" height="100" style="border-radius: 50%; flex-shrink: 0;">
+  <p style="flex: 1; min-width: 240px; margin: 0;">I'm a data scientist and machine learning practitioner based in Canada. I build end-to-end ML systems, from feature engineering and model tuning to MLflow tracking, DVC pipelines and Docker deployment, with a focus on responsible AI: fairness, explainability and robustness. My recent work includes forecasting hourly electricity demand for Hydro-Québec's Hilo program and building LLM-powered data tools that run locally. I also have a foundation in applied statistics with R.</p>
+</div>
 
 [LinkedIn](https://www.linkedin.com/in/eddyk1) · [GitHub](https://github.com/EddyKambohTW) · [RPubs](https://rpubs.com/kambonalytic)
 
