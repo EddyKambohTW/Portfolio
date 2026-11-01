@@ -82,6 +82,17 @@ A chapter-by-chapter study site (Chapters 1–8) with notes and unit presentatio
 - Recognizing and interpreting variability
 - Computing and plotting with R
 
+**[Version 1 of the course site](https://sites.google.com/view/math1280/home?authuser=1)** covers:
+
+- Unit 1: Sampling and Data
+- Unit 2: Descriptive Statistics
+- Unit 3: Probability Topics
+- Unit 4: Discrete Random Variables
+- Unit 5: Geometric, Hypergeometric and Poisson Distribution
+- Unit 6: Continuous Random Variables
+- Unit 7: The Normal Distribution
+- Unit 8: The Central Limit Theorem
+
 ### [MATH 1281: Statistical Inference](https://sites.google.com/view/math-1281)
 
 - Point estimation, confidence intervals and hypothesis testing
@@ -89,6 +100,10 @@ A chapter-by-chapter study site (Chapters 1–8) with notes and unit presentatio
 - Applying and interpreting the results of statistical inference
 - The assumptions behind each inference procedure
 - Using simulation to validate the probabilistic properties of inference procedures
+
+### [ECON 1580: Applied Economics: Theory and Practice](https://sites.google.com/view/econ1580/home)
+
+A unit-by-unit course site (Units 1–8).
 
 ---
 
