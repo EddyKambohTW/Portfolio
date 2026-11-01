@@ -75,7 +75,7 @@ A five-part series of R tutorials based on [*Introduction to Statistical Thinkin
 
 ### [MATH 1280: Introduction to Statistics](https://sites.google.com/view/math-1280/chapter-1?authuser=1)
 
-A chapter-by-chapter study site (Chapters 1–8) with notes and unit presentations for the course.
+**[Version 0 of the course site](https://sites.google.com/view/math-1280/chapter-1?authuser=1)** is a chapter-by-chapter study site (Chapters 1–8) with notes and unit presentations for the course.
 
 - Probability concepts that underpin statistics
 - Presenting and summarizing data with tables, plots and numerical summaries
@@ -103,7 +103,16 @@ A chapter-by-chapter study site (Chapters 1–8) with notes and unit presentatio
 
 ### [ECON 1580: Applied Economics: Theory and Practice](https://sites.google.com/view/econ1580/home)
 
-A unit-by-unit course site (Units 1–8).
+A unit-by-unit course site covering:
+
+- Unit 1: Economic Systems and Global Policy Impact
+- Unit 2: Regulatory Policies and Market Competition
+- Unit 3: Externalities, Public Goods, and Government Intervention
+- Unit 4: Environmental Policies and Sustainability
+- Unit 5: Labor Markets, Wage Dynamics, and Economic Inequality
+- Unit 6: Fiscal and Monetary Policies
+- Unit 7: Trade, Globalization, and Macroeconomic Perspectives
+- Unit 8: Financial Systems: Capital, Banking, Exchange, and Digital Innovations
 
 ---
 
@@ -120,5 +129,6 @@ A unit-by-unit course site (Units 1–8).
 | **MLOps** | MLflow (tracking and model registry), DVC (data versioning and pipelines), Docker / Docker Compose, GitHub Actions, Makefile |
 | **Apps & APIs** | FastAPI, Streamlit, Typer CLI, REST API data ingestion |
 | **Generative AI** | Ollama, local LLMs (Qwen, Llama, Gemma) |
-| **Statistics** | Descriptive statistics, probability, statistical inference, simulation |
+| **Statistics** | Sampling, descriptive statistics, probability, discrete and continuous random variables, geometric, hypergeometric, Poisson and normal distributions, central limit theorem, statistical inference, simulation |
+| **Applied economics** | Economic systems, regulation and market competition, externalities and public goods, environmental policy, labor markets and inequality, fiscal and monetary policy, trade and globalization, financial systems |
 | **Engineering practices** | Git, Cookiecutter Data Science project structure, Ruff (linting) |
